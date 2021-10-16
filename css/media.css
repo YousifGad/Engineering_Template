@@ -14,10 +14,15 @@
         margin-top: 20px;
         display: flex;
         justify-content:center;
+        gap: 0.5%;
     }
 
     .nav li {
         text-align: center;
+    }
+
+    .nav li:last-of-type {
+        margin-right: 10px;
     }
 
     .nav li a {
