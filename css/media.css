@@ -788,6 +788,9 @@
 /* Clicking Effects */
 @media screen and (max-width:960px) {
     
+    html {
+        scroll-behavior: smooth;
+    }
     
     .nav li a:active {
         opacity: 0.6;
